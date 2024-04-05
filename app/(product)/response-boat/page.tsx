@@ -1,6 +1,16 @@
 import { Table } from "@/components";
 import { RESPONSEBOAT_TABLE } from "@/constants";
 import React from "react";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Response Boat",
+  robots: {
+    index: true,
+    follow: true,
+  },
+}
 
 const ResponseBoatPage = () => {
     const backgroundImage = "/images/about.png";

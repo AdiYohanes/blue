@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Footer, Navbar } from "@/components";
+import {Inter} from "next/font/google"
+
+const inter = Inter({subsets: ["latin"]})
 
 export const metadata: Metadata = {
-  title: "Blue Ocean Sejahtera",
+  title: {
+    default: "Blue Ocean Sejahtera",
+    template: "%s - Blue Ocean Sejahtera"
+  },
   description: "Oil Spill Solutions",
 };
 
@@ -14,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="relative">
+      <body className={inter.className}>
         <Navbar />
         {children}
         <Footer />

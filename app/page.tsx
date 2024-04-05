@@ -1,3 +1,5 @@
+
+
 import { Contact, Hero, Second } from "@/components";
 
 export default function Home() {

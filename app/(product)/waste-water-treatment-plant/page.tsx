@@ -3,6 +3,16 @@
 import { DownloadButton } from "@/components";
 import { GALERY_WWTP } from "@/constants";
 import React from "react";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Waste Water Treatment Plant",
+  robots: {
+    index: true,
+    follow: true,
+  },
+}
 
 const WasteWaterPage = () => {
   const backgroundImage = "/images/about.png";

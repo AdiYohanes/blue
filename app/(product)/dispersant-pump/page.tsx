@@ -4,6 +4,15 @@
 import { DownloadButton } from "@/components";
 import { GALERY_DISPERSANT } from "@/constants";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dispersant Pump",
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 const DispersantPumpPage = () => {
   const backgroundImage = "/images/about.png";

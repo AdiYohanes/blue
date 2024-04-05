@@ -2,6 +2,16 @@
 /* eslint-disable react/jsx-key */
 import { GALERY_STORAGE } from "@/constants";
 import React from "react";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Storage Tank",
+  robots: {
+    index: true,
+    follow: true,
+  },
+}
 
 const StorageTankPage = () => {
   const backgroundImage = "/images/about.png";

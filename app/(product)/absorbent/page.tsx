@@ -4,6 +4,15 @@
 import { DownloadButton } from "@/components";
 import { GALERY_ABSORBENT } from "@/constants";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Absorbent",
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 const AbsorbentPage = () => {
   const backgroundImage = "/images/about.png";

@@ -1,3 +1,13 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 import { About } from "@/components";
 import React from "react";
 

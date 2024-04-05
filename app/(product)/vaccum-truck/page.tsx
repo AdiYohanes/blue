@@ -3,6 +3,16 @@
 import { DownloadButton } from "@/components";
 import { GALERY_VACCUM } from "@/constants";
 import React from "react";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Vaccum Truck",
+  robots: {
+    index: true,
+    follow: true,
+  },
+}
 
 const VaccumTruckPage = () => {
   const backgroundImage = "/images/about.png";
