@@ -530,5 +530,202 @@ export const GALERY_OILSPILLRESPONSE = [
   {
     image: "/images/oilspill-response/gambar1.jpg",
     alt: "oilspillresponse",
-  }
+  },
+  {
+    image: "/images/oilspill-response/gambar2.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar3.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar4.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar5.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar6.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar7.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar8.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar9.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar10.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar11.jpg",
+    alt: "oilspillresponse",
+  },
+  {
+    image: "/images/oilspill-response/gambar12.jpg",
+    alt: "oilspillresponse",
+  },
+];
+
+export const GALERY_TRAINING = [
+  {
+    image: "/images/training/gambar1.jpg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar2.jpg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar3.jpg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar4.jpeg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar5.jpg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar6.jpeg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar7.jpg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar8.jpeg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar9.jpeg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar10.jpeg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar11.jpg",
+    alt: "training",
+  },
+  {
+    image: "/images/training/gambar12.jpeg",
+    alt: "training",
+  },
+];
+
+export const GALERY_DESIGN = [
+  {
+    image: "/images/design/1.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/2.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/3.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/4.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/5.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/6.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/7.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/8.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/9.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/10.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/11.jpg",
+    alt: "design",
+  },
+  {
+    image: "/images/design/12.jpg",
+    alt: "design",
+  },
+]
+
+export const GALERY_ASSESMENT = [
+  {
+    image: "/images/assessment/1.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/2.jpeg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/3.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/4.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/5.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/6.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/7.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/8.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/9.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/10.jpg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/11.jpeg",
+    alt: "assessment",
+  },
+  {
+    image: "/images/assessment/12.jpeg",
+    alt: "assessment",
+  },
 ]

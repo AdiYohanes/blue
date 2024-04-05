@@ -1,7 +1,12 @@
+import { Training } from "@/components";
 import React from "react";
 
 const TrainingPage = () => {
-  return <div>TrainingPage</div>;
+  return (
+    <main className="overflow-hidden">
+      <Training />
+    </main>
+  );
 };
 
 export default TrainingPage;

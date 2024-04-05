@@ -4,6 +4,7 @@
 import { GALERY_OILSPILLRESPONSE } from "@/constants";
 import Card from "./Card";
 import { motion } from "framer-motion";
+import Video from "./Video";
 const OilSpill = () => {
   const backgroundImage = "/images/about.png";
 
@@ -87,18 +88,48 @@ const OilSpill = () => {
         </div>
       </div>
 
-      <div>
-      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 p-10 gap-8">
-        {GALERY_OILSPILLRESPONSE.map((item) => (
-          <div className="flex items-center justify-center">
-            <img
-              className="h-[250] w-[500px] rounded-lg"
-              src={item.image}
-              alt={item.alt}
-            />
-          </div>
-        ))}
+      <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 p-10 gap-8">
+          {GALERY_OILSPILLRESPONSE.map((item) => (
+            <div className="flex items-center justify-center">
+              <img
+                className="h-[250] w-[500px] rounded-lg"
+                src={item.image}
+                alt={item.alt}
+              />
+            </div>
+          ))}
+        </div>
+
+        <div className="w-full">
+          <Video
+            subtitle="Response"
+            title="Oil Spill"
+            videoSrc="/video/oil-spill.mp4"
+          />
+        </div>
       </div>
+      <div className="flex justify-center">
+        <a
+          href="/"
+          className="flex items-center gap-1 px-4 py-2 text-xl font-bold text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            className="w-4 h-4 transform rotate-180"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            ></path>
+          </svg>
+          Back to Home
+        </a>
       </div>
     </>
   );

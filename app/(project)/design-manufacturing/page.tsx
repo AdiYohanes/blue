@@ -1,7 +1,12 @@
+import { DesignManufacture } from "@/components";
 import React from "react";
 
 const DesignManufacturingPage = () => {
-  return <div>DesignManufacturingPage</div>;
+  return (
+    <main className="overflow-hidden">
+      <DesignManufacture />
+    </main>
+  );
 };
 
 export default DesignManufacturingPage;

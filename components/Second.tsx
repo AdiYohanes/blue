@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Second = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(
-    "Oil Spill Response"
+    "Oil Spill"
   );
 
   const handleClick = (title: string) => {

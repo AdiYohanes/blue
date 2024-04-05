@@ -38,10 +38,15 @@ export interface TableItem {
   oilboom: string;
   description: string;
   pdf?: string;
-  project?: string
+  project?: string;
 }
 
-export interface DownloadProps{
-  pdfPath: string
+export interface DownloadProps {
+  pdfPath: string;
 }
 
+export interface VideoProps {
+  videoSrc: string;
+  title: string;
+  subtitle: string;
+}

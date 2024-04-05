@@ -19,6 +19,7 @@ import OilSpill from "./OilSpill";
 import Assesment from "./Assesment";
 import DesignManufacture from "./DesignManufacture";
 import Training from "./Training";
+import Video from "./Video";
 
 export {
   Footer,
@@ -42,4 +43,5 @@ export {
   Assesment,
   DesignManufacture,
   Training,
+  Video,
 };
