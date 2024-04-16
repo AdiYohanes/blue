@@ -88,7 +88,7 @@ const About = () => {
           <div className="w-full lg:w-8/12 ">
             <img
               className="w-full h-full"
-              src="https://i.ibb.co/FhgPJt8/Rectangle-116.png"
+              src="/images/assesment.jpg"
               alt="A group of People"
             />
           </div>
